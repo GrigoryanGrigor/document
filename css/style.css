@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cards{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    margin: 20px;
+}
+.card img{
+    width: 300px;
+    transition: 0.3s;
+}
+.card img:hover{
+    filter: brightness(80%);
+}
+.card_link{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    color: white;
+    background-color: #949cdf;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 0;
+    transition: 0.3s;
+}
+.card_link:hover{
+    background-color: #cd5d7d;
+}
